@@ -1,0 +1,35 @@
+module.exports = {
+  defaultTitle: 'Lars Behrenberg',
+  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  author: 'Lars Behrenberg',
+  url: 'https://larsbehrenberg.com',
+  legalName: 'Lars Behrenberg',
+  defaultDescription: 'I’m Lars and I’m a Freelance Webdeveloper!',
+  socialLinks: {
+    twitter: 'http://www.twitter.com/codetraveling',
+    github: 'https://github.com/larsbehrenberg',
+    linkedin: 'https://www.linkedin.com/in/lars-behrenberg/',
+    // instagram: 'https://instagram.com/smakosh19',
+    // youtube: 'https://www.youtube.com/user/smakoshthegamer',
+    // google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
+  },
+  googleAnalyticsID: 'UA-88875900-4',
+  themeColor: '#3498db',
+  backgroundColor: '#3498db',
+  social: {
+    // facebook: 'appId',
+    twitter: '@codetraveling',
+  },
+  address: {
+    city: 'City',
+    region: 'Region',
+    country: 'Country',
+    zipCode: 'ZipCode',
+  },
+  contact: {
+    email: 'email',
+    phone: 'phone number',
+  },
+  foundingDate: '2020',
+  recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+};
