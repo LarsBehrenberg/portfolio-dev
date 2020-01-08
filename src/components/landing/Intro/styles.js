@@ -8,31 +8,33 @@ export const Wrapper = styled.div`
   background-position: right top;
   background-repeat: no-repeat;
 
-  @media (max-width: 960px) {
+  @media (max-width: 480px) {
     background-image: none;
   }
 `;
 
 export const IntroWrapper = styled.div`
-  padding: 4.5rem 0;
+  padding: 4.6rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 960px) {
+  @media (max-width: 480px) {
     flex-direction: column;
-
     background-image: url(${devBlue});
     background-size: contain;
     background-position: right top;
     background-repeat: no-repeat;
   }
+ @media (min-width: 768px) and (max-width: 1024px) {
+    padding: 1rem 0;
+ } 
 `;
 
 export const Details = styled.div`
   flex: 1;
 
-  @media (max-width: 960px) {
+  @media (max-width: 480px) {
     margin-top: 6rem;
     width: 100%;
     margin-bottom: 0rem;
@@ -64,7 +66,7 @@ export const Details = styled.div`
 export const Thumbnail = styled.div`
   flex: 1;
 
-  @media (max-width: 960px) {
+  @media (max-width: 480px) {
     width: 100%;
     display: none !important
   }

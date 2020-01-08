@@ -3,9 +3,12 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   a {
     color: #6d6d6d;
-    text-decoration: none;
+	text-decoration: none;
+	font-size: 1.2em;
   }
-
+  .isActive{
+	  color: black;
+  }
   ${({ desktop }) =>
     desktop
       ? `

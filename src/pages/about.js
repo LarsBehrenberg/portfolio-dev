@@ -6,10 +6,10 @@ import { Header } from 'components/theme';
 export default () => (
   <Layout>
     <SEO />
-		<Header />
-    <Intro />
-    {/* <Projects /> */}
-    <Skills />
-    <Contact />
+    <Header />
+    {/*<Intro /> */}
+    <Projects />
+    {/* <Skills />
+    <Contact /> */}
   </Layout>
 );
